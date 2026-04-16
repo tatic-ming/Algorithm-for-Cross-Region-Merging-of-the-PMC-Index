@@ -1,2 +1,2 @@
 # Algorithm-for-Cross-Region-Merging-of-the-PMC-Index
-Resolving the issue where the PMC index cannot aggregate scores from multiple policies. The solution I adopted involves using a quantile algorithm and a KDE (Kernel Density Estimate) function.
+Resolving the issue of unable to aggregate PMC scores across multiple policies. The approach I adopted involves using a quantile algorithm and a KDE (Kernel Density Estimate) to address this. I ranked the PMC evaluation scores for different policies within the same region, selected the top X percentile, and calculated their kernel density scores to obtain a score curve representing high-quality policy planning, thereby enabling a comparison of policies across different regions.
